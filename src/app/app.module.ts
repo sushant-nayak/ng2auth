@@ -20,7 +20,7 @@ import { UserComponent } from './components/user/user.component';
   imports: [
     BrowserModule
   ],
-  providers: [Express,Cors, BodyParser, Passport, Mongoose],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
